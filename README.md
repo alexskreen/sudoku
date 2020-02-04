@@ -10,7 +10,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 |   Behavior    |   Input     |     Output    |
 |--------------:|:-----------:|--------------:|
-|A row contains all numbers from 1 to 9 with no repeats | 123456789 | "legal row" |
+|A row contains 9 numbers | 1234 |"row must contain 9 numbers" |A row contains all numbers from 1 to 9 with no repeats | 123456789 | "legal row" |
 
 
 
