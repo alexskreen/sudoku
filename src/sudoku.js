@@ -31,7 +31,6 @@ Sudoku.prototype.transpose = function() {
     for (i=0; i<9; i++) {
         colStr.push(colArr[i].join(""));
     }
-    console.log (newSudoku, rowArr, colArr, colStr)
     return colStr;
 }      
 

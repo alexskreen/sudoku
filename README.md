@@ -10,8 +10,11 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 
 |   Behavior    |   Input     |     Output    |
 |--------------:|:-----------:|--------------:|
-|A row contains 9 numbers | 1234 |"row must contain 9 numbers" |A row contains all numbers from 1 to 9 with no repeats | 123456789 | "legal row" |
-
+|A row contains 9 numbers | 1234 |"row must contain 9 numbers" |
+|A row contains all numbers from 1 to 9 with no repeats | 123456789 | "legal row" |
+|Transposes sudoku rows into columns | ["123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789"] | ["111111111", "222222222", "333333333", "444444444", "555555555", "666666666", "777777777", "888888888", "999999999"] |
+| A column contains all numbers from 1 to 9 with no repeats | 123456789 | "legal column" |
+|
 
 
 

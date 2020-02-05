@@ -1,5 +1,6 @@
 import { Sudoku } from './../src/sudoku.js';
 import { Row } from './../src/row.js';
+import { Col } from './../src/col.js';
 
 describe ('Row', () => {
     test ("a row must contain 9 numbers", () => {
@@ -16,5 +17,12 @@ describe ('Sudoku', () => {
     test ('transposes sudoku boards row arrays to column arrays', () => {
         var sudoku = new Sudoku(["123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789", "123456789"]);
         expect(sudoku.transpose()).toEqual(["111111111", "222222222", "333333333", "444444444", "555555555", "666666666", "777777777", "888888888", "999999999"]);
-    })
-})
+    });
+});
+
+describe ('Col', () => {
+    test ('a column must contain numbers 1-9 with no repeats', () => {
+        var col = new Col("987654321");
+        expect(col.checkCol()).toEqual("legal column");
+    });
+});
